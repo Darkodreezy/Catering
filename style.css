@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.flex{
+    position: fixed;
+ width: 100%;
+ height: 50px;
+ background-color: white;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+ column-gap: 50%;
+ z-index: 9999;
+ box-shadow: 0  0  8px 0 grey;
+}
+
+.flex p a{
+text-decoration: none;
+color: black;
+font-size: 17px;
+letter-spacing: 4px;
+padding: 12px  16px;
+}
+
+.flex p a:hover{
+    background-color: grey;
+    color: white;
+}
+
+.flex ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex ul li{
+    list-style-type: none;
+}
+
+.flex ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    letter-spacing: 4px;
+    padding: 12px 16px;
+}
+.flex ul li :hover{
+    background-color: grey;
+    color: white;
+
+}
+.hero{
+    padding-top: 50px;
+    margin-bottom: 80px;
+}
+.hero .text{
+    position: absolute;
+    top: 560px;
+    left: 20px;
+    font-size: 30px;
+    color: rgb(102, 97, 97);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 0 100px;
+    padding-bottom: 60px;
+    margin-bottom: 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+}
+.texts{
+    padding-bottom: 120px;
+    text-align: center;
+}
+.texts h1{
+    margin-bottom: 50px;
+}
+.texts p{
+    margin-bottom: 25px;
+}
+.text1{
+    color: grey;
+}
+.container1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 0 10px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+.text2 h1{
+    margin-bottom: 40px;
+}
+.text2 h4{
+    margin-bottom: 15px;
+}
+.text2 p{
+    color: grey;
+    margin-bottom: 40px;
+}
+.container2{
+    padding: 0px 100px;
+
+}
+.container2 h1{
+    margin-bottom: 40px;
+}
+.container2 h4{
+    color: rgb(91, 133, 119);
+    margin-bottom: 40px;
+}
+.container2 p{
+    margin-bottom: 40px;
+}
+.container2 input{
+   border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+.container2 hr{
+    margin-bottom: 40px;
+}
+.container2 .bind::placeholder{
+    color: black;
+}
+.container2 button{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(230, 221, 221);
+    border: 0px;
+    font-size: 10px;
+}
